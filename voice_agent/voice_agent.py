@@ -24,8 +24,8 @@ from tools import (
     strafe_left, strafe_right, stop_robot, finish_task
 )
 
-# API Key
-DEEPSEEK_API_KEY = "sk-f82bf749e07a4509bb34c42bcdd04074"
+# API Key - 请设置环境变量 DEEPSEEK_API_KEY
+DEEPSEEK_API_KEY = os.environ.get("DEEPSEEK_API_KEY", "")
 
 
 def create_agent():
