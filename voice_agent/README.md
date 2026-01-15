@@ -14,11 +14,11 @@
 
 ```bash
 # 启动语音助手
-/home/sunrise/miniconda3/envs/xlerobot/bin/python -u voice_agent/voice_agent.py
-
-# 或者
 conda activate xlerobot
 python -u voice_agent/voice_agent.py
+
+# 或者使用 conda run
+conda run -n xlerobot python -u voice_agent/voice_agent.py
 ```
 
 注意：需要 `-u` 参数确保实时输出。

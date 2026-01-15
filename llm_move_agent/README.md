@@ -38,7 +38,7 @@ GOOGLE_API_KEY=your-key
 ## 使用方法
 
 ```bash
-cd /home/sunrise/XLeRobot
+cd ~/XLeRobot
 conda activate xlerobot
 
 # 执行单个指令

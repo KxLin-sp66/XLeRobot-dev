@@ -13,15 +13,16 @@ conda activate xlerobot
 
 ```bash
 cd ~/XLeRobot
+conda activate xlerobot
 
 # 语音交互
-/home/sunrise/miniconda3/envs/xlerobot/bin/python -u robocrew/agent.py
+python -u robocrew/agent.py
 
 # 文本交互
-/home/sunrise/miniconda3/envs/xlerobot/bin/python -u robocrew/agent.py --text
+python -u robocrew/agent.py --text
 
 # 模拟模式
-/home/sunrise/miniconda3/envs/xlerobot/bin/python -u robocrew/agent.py --mock --task "走到桌子前面"
+python -u robocrew/agent.py --mock --task "走到桌子前面"
 ```
 
 ## 架构说明
