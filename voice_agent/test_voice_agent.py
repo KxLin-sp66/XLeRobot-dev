@@ -12,7 +12,7 @@ from asr import transcribe, get_asr_model
 from audio_utils import record_audio, play_tts
 
 # API Key
-DEEPSEEK_API_KEY = "sk-f82bf749e07a4509bb34c42bcdd04074"
+DEEPSEEK_API_KEY = os.environ.get("DEEPSEEK_API_KEY", "")
 
 print("=" * 50)
 print("语音Agent测试")

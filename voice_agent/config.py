@@ -31,4 +31,4 @@ TTS_VOICE = "zh-CN-XiaoxiaoNeural"  # 女声，自然
 
 # LLM配置 (复用 llm_move_agent 的配置)
 LLM_PROVIDER = os.getenv("LLM_PROVIDER", "deepseek")
-DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY", "sk-f82bf749e07a4509bb34c42bcdd04074")
+DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY", "")
